@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta>
+	<link rel="stylesheet" href="style.css">
+	<title>Formulaire</title>
+</head>
+
+<body>
+
+	<div class="general" id ="gener">
+		<h class="atitre">General Information</h><br>
+
+
+		<select name="Title" id="title" >
+      <option><th>Title</th></option>
+      <option value="1">Mme    </option>
+      <option value="2">Mlle  </option>
+      <option value="3">Mr</option>
+    </select>
+    <p>
+       <form method="post" action="traitement.php"></form>
+     
+       
+         <input type="text"name= "pseudo" id="text" placeholder="First Name"> 
+         <input type="text"name= "pseudo" id="text" placeholder="Last Name"> 
+       
+    </p>
+
+    <select name="Title" id="title" aria-placeholder="Position">
+      <option><th>Position</th></option>
+      <option value="1">je    </option>
+      <option value="2">ne   </option>
+      <option value="3">sais</option>
+    </select>
+
+    <p>
+      <input type="text"name= "pseudo" id="text" placeholder="Company"> 
+    </p>
+    <p>
+      <input type="text"name= "pseudo" id="text" placeholder="Bisiness Arena"> 
+    <select name="Title" id="title" >
+      <option><th>Employees</th></option>
+      <option value="1">je    </option>
+      <option value="2">ne   </option>
+      <option value="3">sais</option>
+    </select>
+  </p>
+</div>
+
+<div class="general" id="cont">
+<h class="btitre">Contact Details</h>
+    <p>
+        <input type="text"name= "pseudo" id="text" placeholder="Strit + Nr"> 
+    </p>
+     <p>
+        <input type="text"name= "pseudo" id="text" placeholder="Additional Information"> 
+     </p>
+
+
+     <p>
+      <input type="password"name= "pseudo" id="text" placeholder="Zip Code"> 
+   <select name="Title" id="title" >
+    <option><th>Place</th></option>
+     
+    <option value="1">je    </option>
+    <option value="2">ne   </option>
+    <option value="3">sais</option>
+  </select>
+    </p>
+
+  <select name="Title" id="title" >
+    <option><th>Country</th></option>
+    <option value="1">je    </option>
+    <option value="2">ne   </option>
+    <option value="3">sais</option>
+  </select>
+
+  <p>
+    <input type="password"name= "pseudo" id="text" placeholder="Code +"> 
+    <input type="tel"name= "pseudo" id="text" placeholder="Phone Number"> 
+  </p>
+  <p>
+    <input type="email"name= "pseudo" id="text" placeholder="Your Email"> 
+  </p>
+
+
+  <p>
+  <input type="radio" >
+  <label for="ameliorer" class="phrase"> I do accept the <em> Trems and Condtions</em>  <br> of your site.</label>
+  </p> 
+  
+   <input type="submit" value="Register Badge " class="bouton">
+
+</div>
+
+
+</body>
+</html>

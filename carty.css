@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(165, 170, 214);
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+  }
+  
+  .atitre{
+      color: rgb(104, 133, 172);
+      
+  }
+  .btitre{
+   color: white;
+  }
+  
+  #gener{
+    background-color: rgb(252, 252, 252);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 20em;
+    height: 25em;
+    float: left; 
+  }
+  
+  #cont{
+    background-color: rgb(83, 97, 192);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 20em;
+    height:25em;
+    float: left;
+  }
+  
+  .general{ 
+    width: 200px;
+    border-radius: unset;
+    padding: 50px; 
+    margin-top: 50px;
+  }
+  .phrase { 
+    color: white;
+    align-items: center;
+  }
+  em{
+   text-decoration : underline;
+  }
+  
+  
+  .bouton{
+  border-radius: 15px;
+  background-color: white;
+  font-size: 15px;
+  padding: 8px;
+  width: 140px;     
+  }
+  
+   
